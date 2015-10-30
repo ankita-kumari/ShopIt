@@ -14,6 +14,16 @@
 		BCFB804D1BCD231100C6F150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB804B1BCD231100C6F150 /* LaunchScreen.storyboard */; };
 		BCFB80581BCD231100C6F150 /* ShopItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB80571BCD231100C6F150 /* ShopItTests.swift */; };
 		BCFB80631BCD231100C6F150 /* ShopItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB80621BCD231100C6F150 /* ShopItUITests.swift */; };
+		BCFB80711BCD2A7E00C6F150 /* ToBuyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB80701BCD2A7E00C6F150 /* ToBuyItem.swift */; settings = {ASSET_TAGS = (); }; };
+		BCFB80721BCD2A7E00C6F150 /* ToBuyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB80701BCD2A7E00C6F150 /* ToBuyItem.swift */; settings = {ASSET_TAGS = (); }; };
+		BCFB80731BCD2A7E00C6F150 /* ToBuyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB80701BCD2A7E00C6F150 /* ToBuyItem.swift */; settings = {ASSET_TAGS = (); }; };
+		BCFB80751BCD2CF400C6F150 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFB80741BCD2CF300C6F150 /* Realm.framework */; };
+		BCFB80761BCD2CF400C6F150 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCFB80741BCD2CF300C6F150 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BCFB80791BCD2CFA00C6F150 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFB80781BCD2CFA00C6F150 /* RealmSwift.framework */; };
+		BCFB807A1BCD2CFA00C6F150 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCFB80781BCD2CFA00C6F150 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BCFB807C1BCD313900C6F150 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB807B1BCD313900C6F150 /* AddViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BCFB807D1BCD313900C6F150 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB807B1BCD313900C6F150 /* AddViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BCFB807E1BCD313900C6F150 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB807B1BCD313900C6F150 /* AddViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCFB80771BCD2CF400C6F150 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BCFB807A1BCD2CFA00C6F150 /* RealmSwift.framework in Embed Frameworks */,
+				BCFB80761BCD2CF400C6F150 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		BCFB803F1BCD231100C6F150 /* ShopIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB80421BCD231100C6F150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +72,10 @@
 		BCFB805E1BCD231100C6F150 /* ShopItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFB80621BCD231100C6F150 /* ShopItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItUITests.swift; sourceTree = "<group>"; };
 		BCFB80641BCD231100C6F150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFB80701BCD2A7E00C6F150 /* ToBuyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToBuyItem.swift; sourceTree = "<group>"; };
+		BCFB80741BCD2CF300C6F150 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		BCFB80781BCD2CFA00C6F150 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		BCFB807B1BCD313900C6F150 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFB80791BCD2CFA00C6F150 /* RealmSwift.framework in Frameworks */,
+				BCFB80751BCD2CF400C6F150 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +108,8 @@
 		BCFB80361BCD231000C6F150 = {
 			isa = PBXGroup;
 			children = (
+				BCFB80781BCD2CFA00C6F150 /* RealmSwift.framework */,
+				BCFB80741BCD2CF300C6F150 /* Realm.framework */,
 				BCFB80411BCD231100C6F150 /* ShopIt */,
 				BCFB80561BCD231100C6F150 /* ShopItTests */,
 				BCFB80611BCD231100C6F150 /* ShopItUITests */,
@@ -102,7 +135,9 @@
 				BCFB80461BCD231100C6F150 /* Main.storyboard */,
 				BCFB80491BCD231100C6F150 /* Assets.xcassets */,
 				BCFB804B1BCD231100C6F150 /* LaunchScreen.storyboard */,
+				BCFB807B1BCD313900C6F150 /* AddViewController.swift */,
 				BCFB804E1BCD231100C6F150 /* Info.plist */,
+				BCFB80701BCD2A7E00C6F150 /* ToBuyItem.swift */,
 			);
 			path = ShopIt;
 			sourceTree = "<group>";
@@ -135,6 +170,7 @@
 				BCFB803B1BCD231100C6F150 /* Sources */,
 				BCFB803C1BCD231100C6F150 /* Frameworks */,
 				BCFB803D1BCD231100C6F150 /* Resources */,
+				BCFB80771BCD2CF400C6F150 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFB80711BCD2A7E00C6F150 /* ToBuyItem.swift in Sources */,
 				BCFB80451BCD231100C6F150 /* ViewController.swift in Sources */,
+				BCFB807C1BCD313900C6F150 /* AddViewController.swift in Sources */,
 				BCFB80431BCD231100C6F150 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFB80721BCD2A7E00C6F150 /* ToBuyItem.swift in Sources */,
 				BCFB80581BCD231100C6F150 /* ShopItTests.swift in Sources */,
+				BCFB807D1BCD313900C6F150 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFB80731BCD2A7E00C6F150 /* ToBuyItem.swift in Sources */,
 				BCFB80631BCD231100C6F150 /* ShopItUITests.swift in Sources */,
+				BCFB807E1BCD313900C6F150 /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShopIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.test.ShopIt;
@@ -407,6 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShopIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.test.ShopIt;
